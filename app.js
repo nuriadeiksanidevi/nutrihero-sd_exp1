@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import "@/App.css";
-import "@/visual-edit.css";
+import "./app.css";
+import "./visual-edit.css";
 import axios from "axios";
 import { Camera, ChevronRight, CircleHelp, Gamepad2, History, Leaf, Medal, ScanLine, Sparkles, Trophy, Upload, X, Check, RotateCcw, Calculator as CalcIcon, LogOut, Wand2, Minus, Plus, BookOpen } from "lucide-react";
 import { Toaster, toast } from "sonner";
